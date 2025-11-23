@@ -836,7 +836,7 @@ if __name__ == "__main__":
     parser.add_argument('--dt', type=float, default=1.0, help='Time step')
     parser.add_argument('--steps', type=int, default=200, help='Number of simulation steps')
     parser.add_argument('--ps', type=float, default=0.5, help='Probability of survival')
-    parser.add_argument('--alpha', type=float, default=0.0, help='Growth rate')
+    parser.add_argument('--alpha', type=float, default=0.0, help='Probability of apoptosis upon division')
     parser.add_argument('--prolif_capacity', type=int, default=5, help='Proliferation capacity')
     parser.add_argument('--mean_cycle', type=float, default=24.0, help='Mean cell cycle duration')
     parser.add_argument('--sd_cycle', type=float, default=2.0, help='Standard deviation of cell cycle duration')
